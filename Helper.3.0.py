@@ -11,6 +11,7 @@ ffread=("sunken",35)
 fs="sunken",20
 widthh=GetSystemMetrics(0)
 heightt=GetSystemMetrics(1)
+#works
 #time funtion UPDATE===========================================================
 def update ():
     timestr=strftime("%I:%M:%S %p")
@@ -81,5 +82,7 @@ def run_read():
 #btn==================================================================================
 readbtn=customtkinter.CTkButton(font=ff,text="Read notes",master=root,command=run_read)
 readbtn.grid(row=3,column=2)
+#mp3 player====================================================================
+
 #root mainloop=================================================================
 root.mainloop()
